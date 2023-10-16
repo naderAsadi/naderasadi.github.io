@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 
 
 I'm currently a Machine Learning Scientist at Huawei Noah's Ark Lab, Montreal. 
-I'm working on efficient training/finetuning of large scale deep learning systems, including the topics of decentralied learning and parameter-efficient finetuning. I'm also working on the alignment and reasoning of LLMs, using process supervised reward models and inference-time intervention.
+I'm working on efficient training/finetuning of large scale deep learning systems, including the topics of decentralied learning and parameter-efficient tuning. I'm also working on the alignment and reasoning of LLMs, using process supervised reward models and inference-time intervention.
 
 Previously, I was a graduate student at [Mila](mila.quebec), working with [Eugene Belilovsky](https://eugenium.github.io/) and [Rahaf Aljundi](https://rahafaljundi.com/). I worked on generalization and continual/decentralized training of deep neural networks.
 
