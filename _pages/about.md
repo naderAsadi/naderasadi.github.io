@@ -12,14 +12,13 @@ profile:
     
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
 
 ##### About
-
 
 I'm currently a Machine Learning Scientist at Huawei Noah's Ark Lab, Montreal. 
 I'm working on efficient training/finetuning of large scale deep learning systems, including the topics of decentralied learning and parameter-efficient tuning. I'm also working on the alignment and reasoning of LLMs, using process supervised reward models and inference-time intervention.
@@ -30,7 +29,7 @@ I was also a research intern at [Borealis AI](https://www.borealisai.com/), work
 
 ##### Research
 
-My research has focused on understanding and exploring innovative paradigms for the next generation of large scale deep learning systems, given any source of supervision. These systems will exhibit continuous growth in modalities (multi-modal learning), tasks (continual learning), and computation (decentralized learning).
+My research has focused on exploring innovative paradigms for the next generation of large scale deep learning systems, given any source of supervision. These systems will exhibit continuous growth in modalities (multi-modal learning), tasks (continual learning), and computation (decentralized learning).
 
 
 ##### Writings
