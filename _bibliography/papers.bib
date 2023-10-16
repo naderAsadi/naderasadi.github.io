@@ -1,84 +1,97 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
+@inproceedings{asadi2023towards,
+  abbr={preprint},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  preview={prd_2023.png},
+  title={Prototype-Sample Relation Distillation: Towards Replay-Free Continual Learning},
+  author={Asadi, Nader and Davari, MohammadReza and Mudur, Sudhir and Aljundi, Rahaf and Belilovsky, Eugene},
+  booktitle={ICML},
+  year={2023},
+  selected={true},
+  arxiv={2303.14771},
+  pdf={https://arxiv.org/pdf/2303.14771.pdf},
+  abstract={In Continual learning (CL) balancing effective adaptation while combating catastrophic forgetting is a central challenge. Many of the recent best-performing methods utilize various forms of prior task data, e.g. a replay buffer, to tackle the catastrophic forgetting problem. Having access to previous task data can be restrictive in many real-world scenarios, for example when task data is sensitive or proprietary. To overcome the necessity of using previous tasks data, in this work, we start with strong representation learning methods that have been shown to be less prone to forgetting. We propose a holistic approach to jointly learn the representation and class prototypes while maintaining the relevance of old class prototypes and their embedded similarities. Specifically, samples are mapped to an embedding space where the representations are learned using a supervised contrastive loss. Class prototypes are evolved continually in the same latent space, enabling learning and prediction at any point. To continually adapt the prototypes without keeping any prior task data, we propose a novel distillation loss that constrains class prototypes to maintain relative similarities as compared to new task data. This method yields state-of-the-art performance in the task-incremental setting where we are able to outperform other methods that both use no data as well as approaches relying on large amounts of data. Our method is also shown to provide strong performance in the class-incremental setting without using any stored data points.},
+  code={https://github.com/naderAsadi/CLHive},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@inproceedings{davari2022probing,
+  abbr={CVPR},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  preview={cvpr_2022.png},
+  title={Probing Representation Forgetting in Supervised and Unsupervised Continual Learning},
+  author={Davari, MohammadReza and Asadi, Nader and Mudur, Sudhir and Aljundi, Rahaf and Belilovsky, Eugene},
+  booktitle={CVPR},
+  year={2022},
+  selected={true},
+  arxiv={2203.13381},
+  pdf={https://openaccess.thecvf.com/content/CVPR2022/papers/Davari_Probing_Representation_Forgetting_in_Supervised_and_Unsupervised_Continual_Learning_CVPR_2022_paper.pdf},
+  abstract={Continual Learning (CL) research typically focuses on tackling the phenomenon of catastrophic forgetting in neural networks. Catastrophic forgetting is associated with an abrupt loss of knowledge previously learned by a model when the task, or more broadly the data distribution, being trained on changes. In supervised learning problems this forgetting, resulting from a change in the model's representation, is typically measured or observed by evaluating the decrease in old task performance. However, a model's representation can change without losing knowledge about prior tasks. In this work we consider the concept of representation forgetting, observed by using the difference in performance of an optimal linear classifier before and after a new task is introduced. Using this tool we revisit a number of standard continual learning benchmarks and observe that, through this lens, model representations trained without any explicit control for forgetting often experience small representation forgetting and can sometimes be comparable to methods which explicitly control for forgetting, especially in longer task sequences. We also show that representation forgetting can lead to new insights on the effect of model capacity and loss function used in continual learning. Based on our results, we show that a simple yet competitive approach is to learn representations continually with standard supervised contrastive learning while constructing prototypes of class samples when queried on old samples.},
+  equal_first_authors={Davari, MohammadReza and Asadi, Nader},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+@inproceedings{caccia2021reducing,
+  abbr={ICLR},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  preview={iclr_2022.png},
+  title={New Insights on Reducing Abrupt Representation Change in Online Continual Learning},
+  author={Caccia, Lucas and Aljundi, Rahaf and Asadi, Nader and Tuytelaars, Tinne and Pineau, Joelle and Belilovsky, Eugene},
+  booktitle={ICLR},
+  year={2022},
+  selected={true},
+  arxiv={2104.05025},
+  pdf={https://openreview.net/pdf?id=N8MaByOzUfb},
+  code={https://github.com/pclucas14/AML},
+  abstract={In the online continual learning paradigm, agents must learn from a changing distribution while respecting memory and compute constraints. Experience Replay (ER), where a small subset of past data is stored and replayed alongside new data, has emerged as a simple and effective learning strategy. In this work, we focus on the change in representations of observed data that arises when previously unobserved classes appear in the incoming data stream, and new classes must be distinguished from previous ones. We shed new light on this question by showing that applying ER causes the newly added classes' representations to overlap significantly with the previous classes, leading to highly disruptive parameter updates. Based on this empirical analysis, we propose a new method which mitigates this issue by shielding the learned representations from drastic adaptation to accommodate new classes. We show that using an asymmetric update rule pushes new classes to adapt to the older ones (rather than the reverse), which is more effective especially at task boundaries, where much of the forgetting typically occurs. Empirical results show significant gains over strong baselines on standard continual learning benchmarks.}
+}
+
+@inproceedings{asadi2021tackling,
+  abbr={Workshop},
+  bibtex_show={true},
+  preview={neurips_2021.png},
+  title={Tackling Online One-Class Incremental Learning by Removing Negative Contrasts},
+  author={Nader Asadi and Sudhir Mudur and Eugene Belilovsky},
+  booktitle={NeurIPS Workshop on Distribution Shifts},
+  year={2021},
+  selected={true},
+  arxiv={2203.13307},
+  pdf={https://openreview.net/pdf?id=s0K7J-H2QWN},
+  abstract={Recent work studies the supervised online continual learning setting where a learner receives a stream of data whose class distribution changes over time. Distinct from other continual learning settings the learner is presented new samples only once and must distinguish between all seen classes. A number of successful methods in this setting focus on storing and replaying a subset of samples alongside incoming data in a computationally efficient manner. One recent proposal ER-AML achieved strong performance in this setting by applying an asymmetric loss based on contrastive learning to the incoming data and replayed data. However, a key ingredient of the proposed method is avoiding contrasts between incoming data and stored data, which makes it impractical for the setting where only one new class is introduced in each phase of the stream. In this work we adapt a recently proposed approach (\textit{BYOL}) from self-supervised learning to the supervised learning setting, unlocking the constraint on contrasts. We then show that supplementing this with additional regularization on class prototypes yields a new method that achieves strong performance in the one-class incremental learning setting and is competitive with the top performing methods in the multi-class incremental setting.},
+}
+
+@article{asadi2019towards,
+  abbr={Preprint},
+  bibtex_show={true},
+  preview={arxiv_2019.png},
+  title={Towards shape biased unsupervised representation learning for domain generalization},
+  author={Asadi, Nader and Sarfi, Amir M and Hosseinzadeh, Mehrdad and Karimpour, Zahra and Eftekhari, Mahdi},
+  journal={arXiv preprint},
+  year={2019},
+  selected={false},
+  arxiv={1909.08245},
+  abstract={Shape bias plays an important role in self-supervised learning paradigm. The ultimate goal in self-supervised learning is to capture a representation that is based as much as possible on the semantic of objects (i.e. shape bias) and not on individual objects’ peripheral features. This is inline with how human learns in general; our brain unconsciously focuses on the general shape of objects rather than superficial statistics of context. On the other hand, unsupervised representation learning allows discovering label-invariant features which helps generalization of the model. Inspired by these observations, we propose a learning framework to improve the learning performance of self-supervised methods by further hitching their learning process to shape bias. Using distinct modules, our method learns semantic and shape biased representations by integrating domain diversification and jigsaw puzzles. The first module enables the model to create a dynamic environment across arbitrary domains and provides a domain exploration vs. exploitation trade-off, while the second module allows it to explore this environment autonomously. The proposed framework is universally adaptable since it does not require prior knowledge of the domain of interest. We empirically evaluate the performance of our framework through extensive experiments on several domain generalization datasets, namely, PACS, Office-Home, VLCS, and Digits. Results show that the proposed method outperforms the other state-of-the-arts on most of the datasets},
+}
+
+@inproceedings{asadi2019diminishing,
+  abbr={Workshop},
+  bibtex_show={true},
+  preview={workshop_2019.png},
+  title={Diminishing the effect of adversarial perturbations via refining feature representation},
+  author={Asadi, Nader and Sarfi, AmirMohammad and Hosseinzadeh, Mehrdad and Tahsini, Sahba and Eftekhari, Mahdi},
+  booktitle={NeurIPS workshop on Safety and Robustness in Decision Making},
+  year={2019},
+  selected={false},
+  arxiv={1907.01023},
+  abstract={Deep neural networks are highly vulnerable to adversarial examples, which imposes severe security issues for these state-of-the-art models. Many defense methods have been proposed to mitigate this problem. However, a lot of them depend on modification or additional training of the target model. In this work, we analytically investigate each layer’s representation of non-perturbed and perturbed images and show the effect of perturbations on each of these representations. Accordingly, a method based on whitening coloring transform is proposed in order to diminish the misrepresentation of any desirable layer caused by adversaries. Our method can be applied to any layer of any arbitrary model without the need of any modification or additional training. Due to the fact that full whitening of the layer’s representation is not easily differentiable, our proposed method is superbly robust against whitebox attacks. Furthermore, we demonstrate the strength of our method against some state-of-the-art black-box attacks.},
+}
+
+@inproceedings{asadi2019novel,
+  abbr={ICEE},
+  preview={icee_2019.png},
+  title={A Novel Image Perturbation Approach: Perturbing Latent Representation},
+  author={Asadi, Nader and Eftekhari, Mahdi},
+  booktitle={2019 27th Iranian Conference on Electrical Engineering (ICEE)},
+  pages={1895--1899},
+  year={2019},
+  organization={IEEE}
 }

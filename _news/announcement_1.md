@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2021-01-01 07:59:00-0400
 inline: true
-related_posts: false
 ---
 
-A simple inline announcement.
+Starting my MS at [Mila](https://mila.quebec/) and [Concordia](https://www.concordia.ca/). :mortar_board:

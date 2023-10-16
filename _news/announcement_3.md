@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2021-10-23 07:59:00-0400
 inline: true
-related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+One [paper](https://openreview.net/pdf?id=s0K7J-H2QWN) got accepted to NeurIPS 2021 workshop on Distribution Shifts.
