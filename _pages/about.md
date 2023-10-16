@@ -29,7 +29,7 @@ I was also a research intern at [Borealis AI](https://www.borealisai.com/), work
 
 ##### Research
 
-My research has focused on understanding and exploring innovative paradigms for the next generation of large-scale deep learning systems, given any source of supervision. These systems will exhibit continuous growth in modalities (multi-modal learning), tasks (continual learning), and computation (decentralized learning).
+My research has focused on exploring innovative paradigms for the next generation of large-scale deep learning systems, given any source of supervision. These systems will exhibit continuous growth in modalities (multi-modal learning), tasks (continual learning), and computation (decentralized learning).
 
 
 ##### Writings
